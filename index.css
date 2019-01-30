@@ -1,0 +1,392 @@
+body {
+    font-family: NeueHaas, sans-serif
+}
+
+.upfold {
+    margin-top: 1%;
+    display: flex;
+    position: relative;
+}
+
+header img {
+    width: 200px;
+    height: 90px;
+    margin-left: 3%;
+}
+
+.btn_subscribe {
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    right: 3%;
+    height: 92px;
+    width: 145px;
+    border: 2px solid #F90E1E;
+    color: #F90E1E;
+}
+
+.btn_subscribe .text {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.btn_subscribe .btn_icon {
+    width: 11px;
+    height: 11px;
+    background-image: url(https://cdn.technologyreview.com/_/img/angle-arrow--red.svg);
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.btn_subscribe:hover {
+    background: #F90E1E;
+    color: white;
+}
+
+.btn_subscribe .btn_icon:hover {
+    width: 50%;
+    height: 50%;
+    background-image: url(icc.png);
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.menu {
+    display: block;
+    position: relative;
+    width: 70%;
+    right: 40px;
+    height: 130px;
+    top: 0;
+}
+
+.menu .topmenu {
+    display: flex;
+    position: absolute;
+    right: 16px;
+    top: 0;
+}
+
+.menu .topmenu a {
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.menu .nav-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+    background-color: transparent;
+    bottom: 0;
+    left: 30%;
+    top: 48%;
+    height: 50px;
+    width: 70%;
+}
+
+.menu .nav-heading a,
+.menu .nav-heading > div {
+    color: black;
+    align-items: center;
+    padding: 0 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.menu .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+
+}
+
+.nav-heading a:hover,
+.dropdown:hover .dropbtn {
+    padding: 14px 14px;
+    background-color: black;
+    color: white;
+}
+
+.menu .content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 42%;
+    padding: 0px 20px;
+
+
+}
+
+.menu .content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 13px;
+    font-family: inherit;
+    border-bottom: 1px solid white;
+
+}
+
+.menu .content .hrstyle {
+
+    border-top: 2px solid white;
+}
+
+.menu .content a:hover {
+    background-color: black;
+    color: gray;
+}
+
+.menu .dropdown:hover .content {
+    display: block;
+}
+
+.container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 30px 30px 30px;
+    height: auto;
+
+
+}
+
+.container .col {
+    width: 100%;
+    padding: 15px 15px;
+    color: black;
+    height: 100%;
+
+}
+
+.container #col1 img {
+    height: 190px;
+    width: 320px;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container #col2 img {
+    height: 530px;
+    width: auto;
+
+}
+
+#col2 h1 {
+    font-size: 40px;
+}
+
+#col2 p {
+    font-size: 20px;
+}
+
+#col3 h3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#col3 h5 {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.container .toprow {
+
+    padding: 5px 15px;
+    background-color: #EDEDED;
+    width: 85%;
+    margin-left: 10px;
+    height: auto;
+
+}
+
+.toprow .caption {
+    padding-top: 0;
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.toprow hr {
+    height: 4px;
+    background-color: black;
+
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    padding-top: 5px;
+
+}
+
+.readmore {
+    font-size: 16px;
+
+
+}
+
+.container .bottomrow {
+    padding: 0px 15px;
+    background-color: #EDEDED;
+    width: 85%;
+    margin-left: 10px;
+    height: 100%;
+
+}
+
+.bottomrow h4 {
+    margin: 0;
+
+}
+
+.bottomrow > .myform {
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+.email {
+    border: 0;
+    background: inherit;
+    border-bottom: 1px solid black;
+
+}
+
+.bottom-text {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.signup_btn {
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 35px 0 6px 7px;
+    width: 30%;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black;
+    color: black;
+
+}
+
+.signup_btn .text {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+}
+
+.signup_btn .signup_btn_icon {
+    width: 8px;
+    height: 8px;
+    background-image: url(https://cdn.technologyreview.com/_/img/angle-arrow.svg);
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.signup_btn:hover {
+    background: black;
+    color: white;
+}
+
+.signup_btn.signup_btn_icon:hover {
+    width: 50%;
+    height: 50%;
+    background-image: url(icc.png);
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.container2 {
+    background-color: #363639;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 50px;
+    height: 250px;
+    width: 82%;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.businesslab {
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    margin-bottom: 100px;
+    background-color: pink;
+
+}
+
+.bllogo{
+    position: absolute;
+    top:30%;
+    left:3%;
+    width: 30%;
+    cursor: pointer;
+}
+.bltitle{
+    font-size:40px;
+    color:white;
+    padding:20px 0px 0px;
+    margin:0;
+    position:absolute;
+    top:7%;
+    left:40%;
+    cursor: pointer;
+}
+
+.blcaption{
+    font-size:20px;
+    color:white;
+    position:absolute;
+    top:32%;
+    left:40%;
+    cursor:pointer;
+}
+.listenmore{
+    font-size:16px;
+    position: absolute;
+    bottom:10%;
+    left:40%;
+    cursor:pointer;
+}
